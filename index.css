@@ -14,26 +14,50 @@ header {
     background-color: salmon;
     padding: 20px;
 }
+header h1{
+    align-items: center;
+    display: block;
+    border-style:groove;
+    border-radius: 100px;
+    border: 3px solid blanchedalmond;
+    width: 300px;
+}
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: lightsalmon;
-    padding: 20px;
+    padding: 0px;
 }
 nav ul{
+    align-items: center;
     display:flex;
     justify-content: space-evenly;
     list-style: none;
+    padding: 20px;
 }
 nav ul li{
     margin:0;
+
 }
-nav ul li:hover{
-    background-color:brown;
+nav ul li a{
+    padding: 20px;
+    width: 100px;
+    border-radius: 50px;
+    text-decoration: none
+    
 }
 
+nav ul li a.ex1:hover{
+    background-color: brown;
+}
+nav ul li a.ex2:hover{
+    background-color: brown;
+}
+nav ul li a.ex3:hover{
+    background-color: brown;
+}
 main {
     margin-block: 10px;
 }
