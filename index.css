@@ -15,12 +15,13 @@ header {
     padding: 20px;
 }
 header h1{
+    justify-content: center;
     align-items: center;
-    display: block;
+    display: flex;
     border-style:groove;
     border-radius: 100px;
     border: 3px solid blanchedalmond;
-    width: 300px;
+    width: 400px;
 }
 
 nav {
@@ -49,15 +50,10 @@ nav ul li a{
     
 }
 
-nav ul li a.ex1:hover{
+nav ul li a:hover{
     background-color: brown;
 }
-nav ul li a.ex2:hover{
-    background-color: brown;
-}
-nav ul li a.ex3:hover{
-    background-color: brown;
-}
+
 main {
     margin-block: 10px;
 }
@@ -77,4 +73,12 @@ main article{
 
 .image {
     border-radius: 3%;
+}
+
+footer{
+    display: flex; 
+    align-items: center; 
+    justify-items: space-evenly; 
+    background-color: lightsalmon; 
+    padding: 20px;
 }
